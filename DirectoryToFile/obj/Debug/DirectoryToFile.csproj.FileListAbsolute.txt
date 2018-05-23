@@ -1,0 +1,6 @@
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\bin\Debug\DirectoryToFile.exe.config
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\bin\Debug\DirectoryToFile.exe
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\bin\Debug\DirectoryToFile.pdb
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\obj\Debug\DirectoryToFile.csprojResolveAssemblyReference.cache
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\obj\Debug\DirectoryToFile.exe
+c:\users\yarin\documents\visual studio 2017\Projects\DirectoryToFile\DirectoryToFile\obj\Debug\DirectoryToFile.pdb
