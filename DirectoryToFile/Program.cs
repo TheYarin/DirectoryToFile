@@ -30,15 +30,15 @@ namespace DirectoryToFile
                 files.AddRange(cssFiles);
             }
 
-            using (StreamWriter sw = new StreamWriter(outputFile))
+            using (StreamWriter sw = new StreamWriter(outputFile, false, new UTF8Encoding(false)))
             {
                 foreach (var file in files)
                 {
                     sw.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-                    sw.WriteLine(file);
+                    sw.WriteLine(file.Replace(dir, ""));
                     sw.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
                     sw.WriteLine();
-                    var lines = File.ReadAllLines(file);
+                    var lines = File.ReadAllLines(file, Encoding.Default);
 
                     for (int i = 1; i <= lines.Length; i++)
                     {
