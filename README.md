@@ -1,5 +1,3 @@
-Convert a directory full of source code to a printable text file.
-
 Ever needed to print the source code of a project or an assignment? your development environment didn't support such an archaic operation? This little tool was built for that exact reason!
 
 Open up the Program.cs file, edit the Main() to fit your needs, and you're good to go!
